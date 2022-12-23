@@ -1,10 +1,6 @@
 import React from 'react';
 
-interface Props {
-  // You can define the props that the component expects to receive here
-}
-
-const Dealmaker: React.FC<Props> = (props) => {
+const Dealmaker: React.FC = () => {
   return (
         <div className="Dealmaker">
         <section>
@@ -24,7 +20,7 @@ const Dealmaker: React.FC<Props> = (props) => {
                 meeting its goals.
             </p>
         </section>
-        <img src={'./handshake.png'} />
+        <img src={'./handshake.png'} alt="businessman shaking hands"/>
         <section>
             <h2>Areas we can help your business in:</h2>
             <ul>
