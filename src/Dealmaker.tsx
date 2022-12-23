@@ -32,7 +32,7 @@ const Dealmaker: React.FC = () => {
             </ul>
         </section>
         <p>
-            <strong><a href='tel:+36303756537'>Let us help you in growing your business today</a></strong>
+            <strong><a href='tel:+36303756537'>Grow your business with us today</a></strong>
         </p>
         </div>
     );
